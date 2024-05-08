@@ -13,4 +13,4 @@ windows下Qt Creator 11.0.2, MINGW6.7.0，通过QMake进行构建。
 # QuickTranslateAdmin
 该文件夹是管理端的代码文件。
 # 演示视频
-[![NetFlix on UWP](https://res.cloudinary.com/marcomontalbano/image/upload/v1587315555/video_to_markdown/images/youtube--2qqYywttue4-c05b58ac6eb4c4700831b2b3070cd403.jpg)]([https://youtu.be/2qqYywttue4 "NetFlix on UWP"](https://www.youtube.com/watch?v=ldtSAj3ci_U))
+[![NetFlix on UWP]([https://youtu.be/2qqYywttue4 "NetFlix on UWP"](https://www.youtube.com/watch?v=ldtSAj3ci_U))
