@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Page4</class>
+ <widget class="QWidget" name="Page4">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QDateEdit" name="dateStart">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>110</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEnd">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>90</y>
+     <width>110</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="download">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>90</y>
+     <width>80</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #f6f7fa, stop:1 #dadbde);
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+QPushButton:hover {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #e0e0e0, stop:1 #cecece);
+}
+
+QPushButton:pressed {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #dadbde, stop:1 #f6f7fa);
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+QPushButton:disabled {
+  background-color: #f6f7fa;
+  border: 1px solid #bdc3c7;
+  color: #bdc3c7;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>导出为txt</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="href1">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>200</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="href2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>200</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>160</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>目前仅支持导出英文单词</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

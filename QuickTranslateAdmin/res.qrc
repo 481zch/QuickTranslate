@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/error1.png</file>
+        <file>res/error2.png</file>
+        <file>res/ignore1.png</file>
+        <file>res/ignore2.png</file>
+        <file>res/transe.png</file>
+        <file>res/bubeidanci.png</file>
+        <file>res/shanbei.png</file>
+        <file>res/mushroom.ico</file>
+    </qresource>
+</RCC>

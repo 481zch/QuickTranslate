@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Page1</class>
+ <widget class="QWidget" name="Page1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>485</width>
+    <height>343</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="table">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>70</y>
+     <width>431</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTableWidget {
+  border: 1px solid #d6d9dc;
+  gridline-color: #d6d9dc;
+  selection-background-color: #c0ccda;
+}
+
+QTableWidget::item {
+  padding: 5px;
+  border-color: #d6d9dc;
+}
+
+QTableWidget::item:selected {
+  background-color: #a8b9d3;
+}
+
+QHeaderView::section {
+  background-color: #f0f0f0;
+  padding: 4px;
+  border: 1px solid #d6d9dc;
+  font-size: 10pt;
+}
+
+/* 设置滚动条的样式 */
+QScrollBar:vertical {
+  width: 0px; /* 将滚动条宽度设置为0即可隐藏滚动条 */
+}
+</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Sunken</enum>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateStart">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>110</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEnd">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>30</y>
+     <width>110</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="queryButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>30</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #f6f7fa, stop:1 #dadbde);
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+QPushButton:hover {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #e0e0e0, stop:1 #cecece);
+}
+
+QPushButton:pressed {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #dadbde, stop:1 #f6f7fa);
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+QPushButton:disabled {
+  background-color: #f6f7fa;
+  border: 1px solid #bdc3c7;
+  color: #bdc3c7;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>查询</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

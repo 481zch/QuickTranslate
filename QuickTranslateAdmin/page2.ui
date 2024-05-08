@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Page2</class>
+ <widget class="QWidget" name="Page2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>470</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="labelSearch">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前检索图片为：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="imgSearch">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>20</y>
+     <width>200</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="imgBall">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>160</y>
+     <width>150</width>
+     <height>150</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelBall">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>当前悬浮球图片为：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="uploadSearch">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>50</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #f6f7fa, stop:1 #dadbde);
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+QPushButton:hover {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #e0e0e0, stop:1 #cecece);
+}
+
+QPushButton:pressed {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #dadbde, stop:1 #f6f7fa);
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+QPushButton:disabled {
+  background-color: #f6f7fa;
+  border: 1px solid #bdc3c7;
+  color: #bdc3c7;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>上传</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="uploadBall">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>210</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #f6f7fa, stop:1 #dadbde);
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+QPushButton:hover {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #e0e0e0, stop:1 #cecece);
+}
+
+QPushButton:pressed {
+  background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                    stop:0 #dadbde, stop:1 #f6f7fa);
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+QPushButton:disabled {
+  background-color: #f6f7fa;
+  border: 1px solid #bdc3c7;
+  color: #bdc3c7;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>上传</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
