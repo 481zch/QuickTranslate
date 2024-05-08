@@ -8,8 +8,9 @@
 # 环境配置
 windows下Qt Creator 11.0.2, MINGW6.7.0，通过QMake进行构建。
 # 文件说明
-#### QuickTranslate
+# QuickTranslate
 该文件夹是悬浮球的代码文件，入口文件为floatingball，通过信号槽机制进行界面的切换和信息的发送。
-#### QuickTranslateAdmin
+# QuickTranslateAdmin
 该文件夹是管理端的代码文件。
-
+# 演示视频
+[![NetFlix on UWP](https://res.cloudinary.com/marcomontalbano/image/upload/v1587315555/video_to_markdown/images/youtube--2qqYywttue4-c05b58ac6eb4c4700831b2b3070cd403.jpg)]([https://youtu.be/2qqYywttue4 "NetFlix on UWP"](https://www.youtube.com/watch?v=ldtSAj3ci_U))
