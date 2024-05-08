@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>rec/background.png</file>
+        <file>rec/cat.png</file>
+        <file>rec/cat1.ico</file>
+        <file>rec/ball.png</file>
+        <file>rec/save.png</file>
+        <file>rec/wrong.png</file>
+        <file>rec/yes.png</file>
+    </qresource>
+</RCC>
